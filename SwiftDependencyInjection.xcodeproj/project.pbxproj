@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2527F6F71F7ABB8E002674EF /* SwiftDependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2527F6F61F7ABB8E002674EF /* SwiftDependencyInjection.swift */; };
 		25D045B71F7A90370079252C /* SwiftDependencyInjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D045B51F7A90370079252C /* SwiftDependencyInjection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25FF44D71F7A94150048BA4A /* Swinject.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25D045C41F7A92350079252C /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		25FF44DB1F7A965A0048BA4A /* SwiftDependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FF44DA1F7A965A0048BA4A /* SwiftDependencyInjection.swift */; };
 		25FF44E01F7A97EB0048BA4A /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D045C41F7A92350079252C /* Swinject.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,12 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		256909651F7A990A004F444D /* SwiftDependencyInjection.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftDependencyInjection.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2527F6F51F7ABB70002674EF /* SwiftDependencyInjection.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftDependencyInjection.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2527F6F61F7ABB8E002674EF /* SwiftDependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDependencyInjection.swift; sourceTree = "<group>"; };
 		25D045B21F7A90370079252C /* SwiftDependencyInjection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftDependencyInjection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D045B51F7A90370079252C /* SwiftDependencyInjection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftDependencyInjection.h; sourceTree = "<group>"; };
 		25D045B61F7A90370079252C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25D045C41F7A92350079252C /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Swinject/iOS/Swinject.framework; sourceTree = "<group>"; };
-		25FF44DA1F7A965A0048BA4A /* SwiftDependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDependencyInjection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +69,8 @@
 			children = (
 				25D045B61F7A90370079252C /* Info.plist */,
 				25D045B51F7A90370079252C /* SwiftDependencyInjection.h */,
-				256909651F7A990A004F444D /* SwiftDependencyInjection.playground */,
-				25FF44DA1F7A965A0048BA4A /* SwiftDependencyInjection.swift */,
+				2527F6F51F7ABB70002674EF /* SwiftDependencyInjection.playground */,
+				2527F6F61F7ABB8E002674EF /* SwiftDependencyInjection.swift */,
 				25D045C41F7A92350079252C /* Swinject.framework */,
 			);
 			path = SwiftDependencyInjection;
@@ -164,7 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25FF44DB1F7A965A0048BA4A /* SwiftDependencyInjection.swift in Sources */,
+				2527F6F71F7ABB8E002674EF /* SwiftDependencyInjection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
